@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+        API_HASH: $API_HASH
+        APP_ID: $APP_ID
+        UPDATE_CHANNEL: $UPDATE_CHANNEL
+        TG_BOT_TOKEN: $TG_BOT_TOKEN
